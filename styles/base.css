@@ -1,0 +1,59 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+	background-color: #d3e6d3fe;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+header,
+main {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+    padding-left: 20px;
+}
+
+nav {
+	background-color: #5b8f63;
+	margin: 0 auto;
+	max-width: 800px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+}
+
+nav a:hover {
+	border: 1px solid #fff;
+}
+
+.active {
+	color: yellow;
+}
+
+.card {
+    grid-row: 2fr;
+
+}
