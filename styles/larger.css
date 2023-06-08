@@ -1,9 +1,7 @@
 @media (min-width: 648px) {
-	nav ul {
-		display: flex;
-	}
+
 	nav ul li {
-		flex: 1 1 100%;
+		display: flex;
 	}
 
 	main {
