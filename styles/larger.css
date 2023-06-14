@@ -14,4 +14,20 @@
 	main h2 {
 		grid-column: 1 / span 2;
 	}
+
+	#menu {
+		all: unset;
+	}
+
+	#menu::before {
+		all: unset;
+	}
+	
+	#menu.open::before {
+		all: unset;
+	}
+
+	.navigation li {
+		display: flex;
+	}
 }
