@@ -4,6 +4,11 @@
 	box-sizing: border-box;
 }
 
+#mode {
+	font-size: 3rem;
+	cursor: pointer;
+}
+
 body {
 	font-family: 'Ubuntu', sans-serif;
 }
