@@ -32,15 +32,15 @@
 	}
 
 	.card {
-		margin-left: 2rem;
-		margin-right: 2rem;
+		margin: 2rem;
 		padding-bottom: 1rem;
 	}
 
 	footer {
 		position: absolute;
-		bottom: 0;
+		bottom: 0 auto;
 		width: 100%;
 		height: 4rem; 
+		
 	}
 }

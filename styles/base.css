@@ -116,7 +116,7 @@ h2 {
 	background-color: #34643b;
 	border-radius: 10px;
 	overflow: hidden;
-	margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 .card a, .card h4, .card p {
@@ -136,7 +136,7 @@ section p {
 }
 
 section {
-	margin-bottom: 16px;
+	margin-bottom: 26px;
 }
 
 footer {
