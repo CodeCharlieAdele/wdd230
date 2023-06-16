@@ -37,10 +37,11 @@
 	}
 
 	footer {
+		background-color: #235070;
+		color: black;
 		position: absolute;
 		bottom: 0 auto;
 		width: 100%;
-		height: 4rem; 
-		
+		height: 6rem; 
 	}
 }
