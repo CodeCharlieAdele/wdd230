@@ -10,7 +10,6 @@ body {
 
 header {
 	background-color: #A68A64;
-	display: flexbox;
 	align-items: center;
 	justify-content: center;
 	padding: 20px;
@@ -102,7 +101,6 @@ h2 {
 }
 
 section {
-    display: flexbox;
     margin: 1rem;
     border-radius: 10px;
 	overflow: hidden;
@@ -114,6 +112,10 @@ button {
     color: white;
     padding: 5px;
     margin: 10px;
+}
+
+#welcome-card {
+	margin-top: 5rem;
 }
 
 #welcome-card, #join-card, #weather-card {
@@ -135,13 +137,16 @@ section {
 	margin-bottom: 26px;
 }
 
-footer {
-	display: flexbox;
-    padding-top: 10px;
+#footer {
+    display: inline-flex;
+	padding-top: 10px;
 	padding-bottom: 10px;
+	font-family: 'Lora', sans-serif;
 	color: white;
 	background-color: #235070;
 	max-width: 2000px;
-	margin: 0 auto;
-	
+}
+
+#footer p {
+	padding: 1rem;
 }

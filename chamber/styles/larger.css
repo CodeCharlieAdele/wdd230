@@ -31,11 +31,10 @@
 		display: flex;
 	}
 
-	.card {
-		margin: 2rem;
-		padding-bottom: 1rem;
+	#welcome-card {
+		margin-top: 1rem;
 	}
-
+	
 	footer {
 		background-color: #235070;
 		color: black;
