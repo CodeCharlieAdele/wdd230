@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="">
+    <meta property="og:title" content="WDD 230 Chamber Project">
+    <meta property="og:type" content="website homepage" />
+    <meta property="og:image" content="https://codecharlieadele.github.io/wdd230/chamber/images/">
+    <meta property="og:url" content="https://codecharlieadele.github.io/wdd230/chamber/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Charlie Luckart - WDD 230 - Chamber Project</title>
+    <meta name="description" content="WDD 230 - Web Fronted Development - Charlie Luckart - Chamber Project - Class Milestone">
+    <meta name="author" content="Charlie Luckart">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Lora:ital@0;1&family=Tangerine&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/cumberland-gap-through-mountains.png" alt="the town of cumberland gap seen from above">
+        <h1>Cumberland Gap</h1>
+        <h2>Chamber of Commerce</h2>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li>
+                <a href="index.html">Home</a>
+                <a href="">Discover</a>
+                <a href="">Directory</a>
+                <a href="">Join</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <section id="welcome-card">
+            <h2>Welcome to the town of Cumberland Gap</h2>
+            <p>Discover and learn about the rich history of the cumberland gap Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, culpa! Fugit accusantium et nobis fuga debitis reiciendis officiis obcaecati consectetur ea aperiam. Praesentium optio, nulla quisquam libero aliquam ab ipsa?</p>
+            <button id="discover-button">Discover</button>
+        </section>
+        <section id="events-card">
+            <h2>Upcoming Events</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus quasi laborum quae inventore fugiat modi reprehenderit, non voluptate quisquam officia possimus et culpa dicta magnam animi temporibus quia obcaecati minus?</p>
+        </section>
+        <section id="join-card">
+            <h2>What we're all about</h2>
+            <p>Our goal as the Cumberland Gap Chamber is to Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, culpa! Fugit accusantium et nobis fuga debitis reiciendis officiis obcaecati consectetur ea aperiam. Praesentium optio, nulla quisquam libero aliquam ab ipsa?</p>
+            <button id="join-button">Join</button>
+        </section>
+        <section id="spotlight-card">
+            <h2>Our business Spotlight</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, culpa! Fugit accusantium et nobis fuga debitis reiciendis officiis obcaecati consectetur ea aperiam. Praesentium optio, nulla quisquam libero aliquam ab ipsa?</p>
+            <button id="directory-button">Directory</button>
+        </section>
+        <section id="weather-card">
+            <h2>Current Weather</h2>
+            <p><span id="currentWeather"></span></p>
+            <span id="weatherImage"></span>
+        </section>
+        <footer>
+            <img src="images/black-facebook-icon.png" alt="Facebook icon">
+            <p>Connect with us on Facebook</p>
+            <p>This is a ficticous site for the WDD 230 class at BYU-I. This sight does not represent the town of Cumberland Gap Tennessee.</p>
+            <p>&copy; <span id="currentyear"></span> Charlie Luckart</p>
+            <p>Last modified <span id="lastModified"></span></p>
+        </footer>
+    </main>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hambugerMenu.js"></script>
+</body>
+</html>

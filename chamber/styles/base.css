@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Courier Prime', sans-serif;
+}
+
+header {
+	background-color: #A68A64;
+	display: flexbox;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+    font-family: 'Lora', sans-serif;
+}
+
+header,
+main {
+	max-width: 2000px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 2rem;
+    padding-left: 20px;
+}
+
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #235070;
+	color: white;
+ 	position: absolute;
+	margin-top: 1rem;
+	left: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "✖";
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #656D4A;
+	color: #fff;
+}
+
+.navigation li {
+	display: none;
+}
+
+.open li {
+	display: block;
+	width: 100%;
+}
+.open li a {
+	display: block;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+nav {
+	background-color: #656D4A;
+	margin: 0 auto;
+	max-width: 2000px;
+}
+nav ul {
+	list-style-type: none;
+}
+nav a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 1rem;
+	text-decoration: none;
+	font-size: large;
+}
+
+nav a:hover {
+	border: 1px solid #A68A64;
+}
+
+.active {
+	color: #d3e6d3fe;
+}
+
+h2 {
+	margin-left: 4rem;
+}
+
+section {
+    display: flexbox;
+    margin: 1rem;
+    border-radius: 10px;
+	overflow: hidden;
+    border: 1px solid black;
+}
+
+button {
+    background-color: #235070;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+#welcome-card, #join-card, #weather-card {
+	background-color: #A4AC86;
+}
+
+section h2 {
+    background-color: #656D4A;
+    color: white;
+    padding: 10px;
+    
+}
+
+section p {
+	padding: 10px;
+}
+
+section {
+	margin-bottom: 26px;
+}
+
+footer {
+	display: flexbox;
+    padding-top: 10px;
+	padding-bottom: 10px;
+	color: white;
+	background-color: #235070;
+	max-width: 2000px;
+	margin: 0 auto;
+	
+}
