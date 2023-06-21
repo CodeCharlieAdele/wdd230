@@ -158,6 +158,16 @@ h2 {
 	font-size: large;
 }
 
+.label {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+#visits {
+	font-weight: bolder;
+	font-size: larger;
+}
+
 section h3 {
 	background-color: #d3e6d3fe;
 	color: black;
