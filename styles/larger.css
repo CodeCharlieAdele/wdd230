@@ -43,6 +43,7 @@
 	.herolabel {
 		top: 150px;
 		left: 520px;
+		position: absolute;
 	}
 
 	.herolabel p {
