@@ -1,7 +1,11 @@
-@media (min-width: 648px) {
+@media (min-width: 600px) {
 
 	nav ul li {
 		display: flex;
+	}
+
+	header img {
+		max-width: 2000px;
 	}
 
 	main {
@@ -36,10 +40,37 @@
 	}
 	
 	footer {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 		background-color: #235070;
 		color: black;
 		position: absolute;
 		width: 100%;
-		height: 6rem; 
+		height: 8rem; 
+		
+	}
+
+	/* discover page css: */
+	#discover-main {
+		display: grid;
+        grid-auto-rows: 1fr;
+        grid-template-columns: 2fr 1fr 1fr;
+	}
+
+	
+
+	#gallery img {
+		margin-top: 16px;
+	}
+
+	
+
+	.hover:hover {
+		box-shadow: 0 0 50px #333;
+	}
+
+	figcaption {
+		font-size: smaller;
+		margin-left: 16px;
 	}
 }
