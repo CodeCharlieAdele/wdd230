@@ -41,8 +41,8 @@ h1 {
 	background-color: #235070;
 	color: white;
  	position: absolute;
-	margin-top: 1rem;
-	left: 1rem;
+	margin-top: 2rem;
+	left: 2rem;
 }
 
 #menu::before {
@@ -184,4 +184,10 @@ section {
 
 #sidebar h2 {
 	padding: 16px;
+}
+
+.message {
+	font-size: larger;
+	font-weight: bold;
+	text-align: center;
 }
