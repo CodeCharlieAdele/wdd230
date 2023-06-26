@@ -126,6 +126,7 @@ button {
 
 #welcome-card, #join-card, #weather-card {
 	background-color: #A4AC86;
+	color: white;
 }
 
 section h2 {
