@@ -244,12 +244,12 @@ input::placeholder {
 	font-size: 13px;
 }
 
-#formmessage {
+/* #formmessage {
 	visibility: none;
 	margin: 10px;
 	padding: 0.5rem;
 	color: red;
-}
+} */
 
 #keyphrase:invalid {
 	background-color: #fff0f3;
