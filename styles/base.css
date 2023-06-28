@@ -276,6 +276,12 @@ input[required] label::after {
 	}
 }
 
+#record {
+	display: block;
+	background-color: #34643b;
+	color: white;
+	padding: 2rem 4rem;
+}
 
 
 

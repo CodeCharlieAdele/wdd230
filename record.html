@@ -40,45 +40,11 @@
         </ul>
     </nav>
     <main>
-        <div id="formmessage"></div>
-        <div id="form-box">
-            <form method="get">
-                <h1>Student Website Rating</h1>
-                <p class="smaller">*️⃣ Indicates a required field</p>
-
-                <label for="username" class="req">Username</label>
-                <input type="text" id="username" name="username" required placeholder="Please enter your username">
-                <label for="email" class="req">Email Address</label>
-                <input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$ name="email" required placeholder="Please use your school email address">
-                <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone">
-                <label for="password">Your Password</label>
-                <input type="text" id="password" name="password" pattern="[A-za-Z] .{8,}" placeholder="At least eight characters long. No letters.">
-                <label for="password2">Re-enter Your Password</label>
-                <input type="text" id="password2" name="password2">
-
-                <label for="r">Rate us 1 - 10</label>
-                <div id="rangevalue">0</div>
-                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
-                <datalist id="rangevalues">
-                    <option value="0">0</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                    <option value="6">5</option>
-                    <option value="7">5</option>
-                    <option value="8">5</option>
-                    <option value="9">5</option>
-                    <option value="10">5</option>
-                </datalist>
-        
-                <button id="btnSubmit" type="submit">Send Your Rating</button>
-                <input type="hidden" value="43aster">
-            </form>
-        </div>
-
+        <article id="record">
+            <h1>Student Website Rating</h1>
+            <h3>Thanks for applying to create a course for our online library. We will get back to you
+                within a week with a response.</h3>
+        </article>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> Charlie Luckart USA</p>
@@ -88,7 +54,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hambugerMenu.js"></script>
     <script src="scripts/darkMode.js"></script>
-    <script src="scripts/visitCounter.js"></script>
 </body>
 
 </html>
