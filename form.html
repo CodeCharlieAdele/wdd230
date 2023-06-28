@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.ico">
+    <meta property="og:title" content="Charlie Luckart WDD 230 Home Page">
+    <meta property="og:type" content="website homepage">
+    <meta property="og:image" content="https://codecharlieadele.github.io/wdd230/images/mountains.jpg">
+    <meta property="og:url" content="https://codecharlieadele.github.io/wdd230/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Charlie Luckart - WDD 230 - Web Fronted Development</title>
+    <meta name="description" content="WDD 230 - Web Fronted Development - Charlie Luckart - Course assignment portal">
+    <meta name="author" content="Charlie Luckart">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="http://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/profile.webp" loading="lazy" alt="Picture of Charlie Luckart">
+        <h1>Charlie Luckart</h1>
+        <div id ="mode">
+            🖤
+        </div>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li>
+                <a href="index.html">Home</a>
+                <a href="chamber/index.html">Chamber</a>
+                <a href="week01/chamber-site-plan.html">Site Plan</a>
+                <a href="form.html">Form</a>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div id="formmessage"></div>
+        <div id="form-box">
+            <form method="get">
+                <h1>Contact Us</h1>
+                <p class="smaller">*️⃣ Indicates a required field</p>
+
+                <label for="username" class="req">Username</label>
+                <input type="text" id="username" name="username" required placeholder="Please enter your username">
+                <label for="email" class="req">Email Address</label>
+                <input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$ name="email" required placeholder="Please use your school email address">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone">
+                <label for="password">Your Password</label>
+                <input type="text" id="password" name="password" pattern="[A-za-Z] .{8,}" placeholder="At least eight characters long. No letters.">
+                <label for="password2">Re-enter Your Password</label>
+                <input type="text" id="password2" name="password2">
+
+                <label for="r">Rate us 1 - 10</label>
+                <div id="rangevalue">0</div>
+                <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">5</option>
+                    <option value="7">5</option>
+                    <option value="8">5</option>
+                    <option value="9">5</option>
+                    <option value="10">5</option>
+                </datalist>
+        
+                <button id="btnSubmit" type="submit">Send Your Rating</button>
+                <input type="hidden" value="43aster">
+            </form>
+        </div>
+
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Charlie Luckart USA</p>
+        <p>Last modified <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/formControl.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hambugerMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitCounter.js"></script>
+</body>
+
+</html>

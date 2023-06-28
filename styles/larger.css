@@ -67,6 +67,16 @@
 		margin-bottom: 3rem;
 	}
 
+	/* 	FORM	 */
+	form {
+		padding: .4rem 0;
+	  }
+
+	#form-box {
+		grid-column: 1 / 2;
+		margin-top: 0%;
+	}
+
 	footer {
 		position: absolute;
 		
