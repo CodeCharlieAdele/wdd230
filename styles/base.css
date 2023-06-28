@@ -197,6 +197,15 @@ form {
 	position: relative;
 }
 
+form label.form-field {
+    display: block;
+    padding-top: 1rem;
+}
+
+form label.form-field input {
+	display: block;
+}
+
 #form-box {
 	background-color: #d3e6d3fe;
 	padding: 1rem;

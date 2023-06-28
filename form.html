@@ -46,18 +46,19 @@
                 <h1>Student Website Rating</h1>
                 <p class="smaller">*️⃣ Indicates a required field</p>
 
-                <label for="username" class="req">Username</label>
-                <input type="text" id="username" name="username" required placeholder="Please enter your username">
-                <label for="email" class="req">Email Address</label>
-                <input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$ name="email" required placeholder="Please use your school email address">
-                <label for="phone">Phone</label>
-                <input type="tel" id="phone" name="phone">
-                <label for="password">Your Password</label>
-                <input type="text" id="password" name="password" pattern="[A-za-Z] .{8,}" placeholder="At least eight characters long. No letters.">
-                <label for="password2">Re-enter Your Password</label>
-                <input type="text" id="password2" name="password2">
+                <label class="form-field" for="username" class="req">Username*
+                <input type="text" id="username" name="username" required placeholder="Please enter your username"></label>
 
-                <label for="r">Rate us 1 - 10</label>
+                <label class="form-field" for="email" class="req">Email Address*
+                <input type="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$ name="email" required placeholder="Please use your school email address"></label>
+                
+                <label class="form-field" for="password">Your Password*
+                <input type="password" id="password" name="password" pattern="[A-za-Z] .{8,}" placeholder="At least eight characters long. No letters."></label>
+                
+                <label class="form-field" for="password2">Re-enter Your Password
+                <input type="password" id="password2" name="password2"></label>
+
+                <label class="form-field" for="r">Rate us 1 - 10
                 <div id="rangevalue">0</div>
                 <input type="range" id="r" name="r" min="0" max="10" value="0" step="1" list="rangevalues">
                 <datalist id="rangevalues">
@@ -73,6 +74,7 @@
                     <option value="9">5</option>
                     <option value="10">5</option>
                 </datalist>
+                </label>
         
                 <button id="btnSubmit" type="submit">Send Your Rating</button>
                 <input type="hidden" value="43aster">
