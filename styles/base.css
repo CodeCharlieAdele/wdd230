@@ -191,7 +191,7 @@ iframe {
 /*--------------FORM-------------*/
 
 form {
-	margin: 20px;
+	margin: 21px;
 	display: flex;
 	flex-direction: column;
 	position: relative;
