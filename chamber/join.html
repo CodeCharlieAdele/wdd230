@@ -2,10 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="images/favicon-commerce.ico">
+    <meta property="og:title" content="WDD 230 Chamber Project">
+    <meta property="og:type" content="website homepage">
+    <meta property="og:image" content="https://codecharlieadele.github.io/wdd230/chamber/images/cumberland-gap-through-mountains">
+    <meta property="og:url" content="https://codecharlieadele.github.io/wdd230/chamber/index.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Charlie Luckart - WDD 230 - Chamber Project</title>
+    <meta name="description" content="WDD 230 - Web Fronted Development - Charlie Luckart - Chamber Project - Class Milestone">
+    <meta name="author" content="Charlie Luckart">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&family=Lora:ital@0;1&family=Tangerine&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Join</h1>
+    <header>
+        <img src="images/cumberland-gap-through-mountains.png" alt="the town of cumberland gap seen from above">
+        <h1>Cumberland Gap</h1>
+        <h2>Chamber of Commerce</h2>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li>
+                <a href="index.html">Home</a>
+                <a href="discover.html">Discover</a>
+                <a href="directory.html">Directory</a>
+                <a href="join.html">Join</a>
+            </li>
+        </ul>
+    </nav>
+    <main id="join-page">
+        <h1 id="join-title">Cumberland Gap Chamber Membership Level Information & Join Form</h1>
+        <article id="member-info">
+            <section id="np-card">
+                <h3>NP Membership</h3>
+                <p>◼ All the benefits of enhanced membership, plus:</p>
+                <p>◼ Invitations to exclusive leadership forums and roundtable discussions.</p>
+                <p>◼ VIP access to high-profile chamber events and guest speakers.</p>
+                <p>◼ Opportunities to serve on the chamber's board of directors or executive committees.</p>
+            </section>
+            <section id="bronze-card">
+                <h3>Bronze Membership</h3>
+                <p>◼ Access to networking events and business mixers.</p>
+                <p>◼ Listing in the chamber's online directory.</p>
+                <p>◼ Subscription to the chamber's newsletter or publications.</p>
+                <p>◼ Opportunities to participate in chamber committees and task forces.</p>
+                <p>◼ Access to educational resources and workshops.</p>
+            </section>
+            <section id="silver-card">
+                <h3>Silver Membership</h3>
+                <p>◼ All the benefits of basic membership, plus:</p>
+                <p>◼ Increased visibility and recognition, such as a highlighted listing in the directory or additional promotional opportunities.</p>
+                <p>◼ Priority referrals and leads from the chamber.</p>
+                <p>◼ Additional advertising and marketing opportunities.</p>
+                <p>◼ Enhanced advocacy and representation for the member's interests.</p>
+            </section>
+            <section id="gold-card">
+                <h3>Gold Membership</h3>
+                <p>◼ All the benefits of enhanced membership, plus:</p>
+                <p>◼ Invitations to exclusive leadership forums and roundtable discussions.</p>
+                <p>◼ VIP access to high-profile chamber events and guest speakers.</p>
+                <p>◼ Opportunities to serve on the chamber's board of directors or executive committees.</p>
+                <p>◼ Customized sponsorship packages for major chamber events.</p>
+            </section>
+        </article>
+        
+        <div id="form-wrapper">
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <legend>Applicant information</legend>
+                    <label class="form-top">First Name* <input type="text" name="fname" required></label>
+                    <label class="form-top">Last Name* <input type="text" name="lname" required></label>
+                    <label class="form-top">Title/Position* <input type="text" name="title" required></label>
+                    <label class="form-top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="form-top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="form-top">Business or Organization <input type="text" name="business" placeholder="Name of business" required></label>
+                    <div class="form-bottom">Membership Levels</div>
+                    <label class="radio"><input type="radio" name="membership" value="np"> NP Membership</label>
+                    <label class="radio"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                    <label class="radio"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                    <label class="radio"><input type="radio" name="membership" value="gold">Gold Membership</label>
+                    <label class="form-top">Business/Organization Description <input type="text" name="businessdescript" placeholder="Please describe your business" required></label>
+                </fieldset>
+
+        
+                <button id="btnSubmit" type="submit">Join The Community</button>
+                <input type="hidden" value="43aster">
+            </form>
+        </div>
+    
+    </main>
+    <footer id="footer">
+        <img src="images/black-facebook-icon.png" alt="Facebook icon">
+        <p>Connect with us on Facebook</p>
+        <p>This is a ficticous site, this sight does not represent the town of Cumberland Gap Tennessee.</p>
+        <p>&copy; <span id="currentyear"></span> Charlie Luckart</p>
+        <p>Last modified <span id="lastModified"></span></p>
+    </footer>
+    <script src="scripts/formControl.js"></script>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hambugerMenu.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/visitCounter.js"></script>
 </body>
 </html>

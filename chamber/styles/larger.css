@@ -73,4 +73,27 @@
 		font-size: smaller;
 		margin-left: 16px;
 	}
+
+	/* ---------JOIN PAGE------------- */
+	#join-page {
+		display: grid;
+		grid-template-columns:  1fr 1fr;
+	}
+	
+	#join-title {
+		grid-column: 1 / 4;
+	}
+	
+	#member-info {
+		display: grid;
+		grid-template-rows: 1fr 1fr;
+	}
+	
+	#np-card, #bronze-card {
+		grid-row: 1 / 2;
+	}
+	
+	#silver-card, #gold-card {
+		grid-row: 2 / 3;
+	}
 }
