@@ -96,4 +96,15 @@
 	#silver-card, #gold-card {
 		grid-row: 2 / 3;
 	}
+
+	 /* THANKS PAGE ---------------- */
+
+	 #thanks-page {
+		display: block;
+		text-align: center;
+		margin: 8rem;
+		border: 3px solid #235070;
+		border-radius: 4px;
+		padding: 3rem;
+	  }
 }

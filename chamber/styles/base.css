@@ -297,3 +297,22 @@ form label.form-top input:required:valid {
 	display: table;
 	clear: both;
   }
+
+  /* THANKS PAGE ---------------- */
+
+  #thanks-page {
+	display: block;
+	text-align: center;
+	margin: 1rem;
+	border: 1px solid #235070;
+	border-radius: 4px;
+	padding: 3rem;
+  }
+
+  #thanks-page h1 {
+	font-size: xx-large;
+  } 
+ 
+  #thanks-page p {
+	font-size:large;
+  }
