@@ -204,13 +204,14 @@ section {
 form fieldset {
     margin: .5rem 0;
 	margin-bottom: 1rem;
-    border: 1px solid #445ba9;
+    border: 5px solid #235070;
     border-radius: 10px;
     padding: 3rem;
+	font-size: large;
 }
 
 form legend {
-    color: #445ba9;
+    color: #235070;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -229,7 +230,7 @@ form label.form-top input, form label.form-top select {
     border: solid 1px #999;
     border-radius: 4px;
     padding: .75rem;
-    color: #555;
+    color: #A4AC86;
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
@@ -241,12 +242,13 @@ form label.radio {
     color: #555;
 }
 
-form input.submitBtn {
+form #btnSubmit {
     border: none;
-    background-color: #9c2c13;
+    background-color: #235070;
     color: white;
+	font-size: larger;
     border-radius: 1rem;
-    padding: 1.25 2rem;
+    padding: 2rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
@@ -258,6 +260,34 @@ form label.form-top input:required {
 
 form label.form-top input:required:valid {
     border-left: green solid 6px;
+}
+
+#businessdescription {
+	-webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #c4c6bb;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+
+#np-card, #bronze-card, #silver-card, #gold-card {
+	padding: 1rem;
+	border: 1px solid #235070;
+	background-color: #A68A64;
+	color: white;
+	font-size: large;
+}
+
+#np-card h3, #bronze-card h3, #silver-card h3, #gold-card h3 {
+	background-color: #235070;
+	color: white;
+	padding: .5rem;
 }
 
 
