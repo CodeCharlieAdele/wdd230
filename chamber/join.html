@@ -77,25 +77,26 @@
             <form method="get" action="thanks.html">
                 <fieldset>
                     <legend>Applicant information</legend>
-                    <label class="form-top">First Name* <input type="text" name="fname" required></label>
-                    <label class="form-top">Last Name* <input type="text" name="lname" required></label>
-                    <label class="form-top">Title/Position* <input type="text" name="title" required></label>
-                    <label class="form-top">Phone <input type="tel" name="phone" placeholder="1235551234"></label>
-                    <label class="form-top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
+                    <label class="form-top">First Name* <input type="text" name="fname" id="fname" required></label>
+                    <label class="form-top">Last Name* <input type="text" name="lname" id="lname" required></label>
+                    <label class="form-top">Title/Position* <input type="text" name="title" id="title" required pattern="^[a-zA-Z\- ]{7,}$" required></label>
+                    <label class="form-top">Phone <input type="tel" name="phone" id="phone" placeholder="1235551234"></label>
+                    <label class="form-top">Email* <input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Business Information</legend>
-                    <label class="form-top">Business or Organization <input type="text" name="business" placeholder="Name of business" required></label>
+                    <label class="form-top">Business or Organization <input type="text" name="business" id="business" placeholder="Name of business" required></label>
                     <div class="form-bottom">Membership Levels</div>
-                    <label class="radio"><input type="radio" name="membership" value="np"> NP Membership</label>
-                    <label class="radio"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                    <label class="radio"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                    <label class="radio"><input type="radio" name="membership" value="gold">Gold Membership</label>
-                    <label class="form-top">Business/Organization Description <input type="text" name="businessdescript" placeholder="Please describe your business" required></label>
+                    <label class="radio"><input type="radio" name="membership" id="membership1" value="np"> NP Membership</label>
+                    <label class="radio"><input type="radio" name="membership" id="membership2" value="bronze"> Bronze Membership</label>
+                    <label class="radio"><input type="radio" name="membership" id="membership3" value="silver"> Silver Membership</label>
+                    <label class="radio"><input type="radio" name="membership" id="membership4" value="gold"> Gold Membership</label>
+                    <label for="w3review" class="form-top">Business/Organization Description </label><textarea name="businessdescription" id="businessdescription" placeholder="Please describe your business" required rows="4" cols="50"></textarea>
                 </fieldset>
 
-        
+                <input type="hidden" name="timestamp" id="timestamp" value="">
+
                 <button id="btnSubmit" type="submit">Join The Community</button>
                 <input type="hidden" value="43aster">
             </form>
