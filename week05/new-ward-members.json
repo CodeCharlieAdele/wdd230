@@ -1,0 +1,23 @@
+{
+    "familyName" : "Fitzhurburt",
+    "moveInDate" : 2015,
+    "numOfRecords" : 3,
+    "vistedByBishopric" : true,
+    "familyMembers" : [
+      {
+        "name" : "Eugene Fitzhurburt",
+        "gender" : "Male",
+        "birthDate" : "03/18/1990"
+      },
+      {
+        "name" : "Repunzel Fitzhurburt",
+        "gender" : "Female",
+        "birthDate" : "07/31/1993"
+      },
+      {
+        "name" : "Pascal Fitzhurburt",
+        "gender" : "Male",
+        "birthDate" : "11/02/2009"
+      }
+    ]
+  }
