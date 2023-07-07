@@ -1,28 +1,36 @@
+const baseURL = "https://github.com/codecharlieadele/wdd230";
 
-const url = "https://codecharlieadele.github.io/wdd230/data/links.json";
-
-const cards = document.querySelector('#learning-activities');
-
-async function getData() {
-    const response = await fetch(url);
-    const data = await response.json();
-    displayLinks(data);
+// Define the URL for the links.json data file
+const linksURL = "data/links.json";
+async function getLinks() {
+  try {
+    const response = await fetch(linksURL);
+    if (response.ok) {
+      const data = await response.json();
+      console.log(data);
+      displayLinks(data.weeks);
+    } else {
+      throw new Error("Failed to fetch links");
+    }
+  } catch (error) {
+    console.log(error);
   }
-
-const displayLinks = (weeks) => {
-  weeks.forEach((week) => {
-      let card = document.createElement('section');
-      let weekNum = document.createElement('h2');
-      let link = document.createElement('a');
-      let activityLink = `${weeks.week[i].links}`;
-      let activityTitle = `${weeks.week[i].links[key]}`;
-      weekNum.textContent = `${weeks.week[i]}`;
-      link.setAttribute('href', activityLink);
-      link.innerHTML = activityTitle;
-      card.appendChild(weekNum);
-      card.appendChild(link);
-      cards.appendChild(card);
+}
+function displayLinks(weeks) {
+  const learningsList = document.querySelectorAll('.la');
+  weeks.forEach((week, index) => {
+    const listItem = learningsList[index];
+    listItem.innerHTML = `${week.week}: `;
+    week.links.forEach((link, linkIndex) => {
+      const anchor = document.createElement('a');
+      anchor.href = link.url;
+      anchor.textContent = link.title;
+      listItem.appendChild(anchor);
+      if (linkIndex < week.links.length - 1) {
+        listItem.appendChild(document.createTextNode(' | '));
+      }
+    });
   });
 }
-  
- displayLinks();
+
+getLinks();

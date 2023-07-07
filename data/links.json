@@ -5,13 +5,16 @@
             "week": "week 1",
             "links": [
                 {
-                    "Holy Grail Layout":"week01/holygrail.html"
+                    "url":"week01/holygrail.html",
+                    "title":"Holy Grail Layout"
                 },
                 {
-                    "Media Queries":"week01/media-query.html"
+                    "url":"week01/media-query.html",
+                    "title":"Holy Grail Layout"
                 },
                 {
-                    "Chamber Site Plan":"week01/chamber-site-plan.html"
+                    "url":"week01/chamber-site-plan.html",
+                    "title":"Media Queries"
                 }
             ]
         },
@@ -19,13 +22,16 @@
             "week": "week 2",
             "links": [
                 {
-                    "Book of Mormon Activity":"week02/bom.html"
+                    "url":"week02/bom.html",
+                    "title":"Book of Mormon Activity"
                 },
                 {
-                    "Design Activity":"week02/design.html"
+                    "url":"week02/design.html",
+                    "title":"Design Activity"
                 },
                 {
-                    "Codepen Hamburger Activity":"https://codepen.io/CodeCharlieAdele/pen/BaGooqQ"
+                    "url":"https://codepen.io/CodeCharlieAdele/pen/BaGooqQ",
+                    "title":"Codepen Hamburger Activity"
                 }
             ]
         },
@@ -33,13 +39,16 @@
             "week": "week 3",
             "links": [
                 {
-                    "WEBP Image":"week03/images/WEBP-mountains.webp"
+                    "url":"week03/images/WEBP-mountains.webp",
+                    "title":"WEBP Image"
                 },
                 {
-                    "Lazy Loads Activity":"week03/lazyload.html"
+                    "url":"week03/lazyload.html",
+                    "title":"Lazy Loads Activity"
                 },
                 {
-                    "Web Storage API":"week03/bom.html"
+                    "url":"week03/bom.html",
+                    "title":"Web Storage API"
                 }
             ]
         },
@@ -47,16 +56,20 @@
             "week": "week 4",
             "links": [
                 {
-                    "Pseudo-classes":"https://codepen.io/CodeCharlieAdele/pen/wvQgyGB"
+                    "url":"https://codepen.io/CodeCharlieAdele/pen/wvQgyGB",
+                    "title":"Pseudo-classes"
                 },
                 {
-                    "CSS Combinators":"week04/images/css-combinators.png"
+                    "url":"week04/images/css-combinators.png",
+                    "title":"CSS Combinators"
                 },
                 {
-                    "Table Build Activity":"week04/tablebuild.html"
+                    "url":"week04/tablebuild.html",
+                    "title":"Table Build Activity"
                 },
                 {
-                    "Practice Form":"formPage/index.html"
+                    "url":"formPage/index.html",
+                    "title":"Practice Form"
                 }
             ]
         },
@@ -64,16 +77,20 @@
             "week": "week 5",
             "links": [
                 {
-                    "Pseudo-elements":"https://codepen.io/CodeCharlieAdele/pen/BaGZxZw"
+                    "url":"https://codepen.io/CodeCharlieAdele/pen/BaGZxZw",
+                    "title":"Pseudo-elements"
                 },
                 {
-                    "Json":"week05/new-ward-members.json"
+                    "url":"week05/new-ward-members.json",
+                    "title":"Json"
                 },
                 {
-                    "Json Prophets page":"week05/prophets.html"
+                    "url":"week05/prophets.html",
+                    "title":"Json Prophets page"
                 },
                 {
-                    "Weather API":"week05/weather.html"
+                    "url":"week05/weather.html",
+                    "title":"Weather API"
                 }
             ]
         }
