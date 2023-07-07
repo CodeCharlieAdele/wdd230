@@ -158,6 +158,10 @@ h2 {
 	font-size: large;
 }
 
+figure {
+	color: white;
+}
+
 .label {
 	font-family: 'Ubuntu', sans-serif;
 	font-weight: 700;
@@ -166,6 +170,7 @@ h2 {
 #visits {
 	font-weight: bolder;
 	font-size: larger;
+	margin-top: 1 rem;
 }
 
 section h3 {
