@@ -16,9 +16,9 @@ async function displayMembersView(view) {
         members = data.members;
         renderMembersView(view);
     }
-    else {
-        console.error('Error fetching member data');
-    }
+    // else {
+    //     console.error('Error fetching member data');
+    // }
 }
 
 function renderMembersView(view) {
