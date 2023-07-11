@@ -1,0 +1,60 @@
+{
+  "members": [
+    {
+      "name": "Sara Baker",
+      "address": "499 Drury Lane, Cumberland Gap TN, 37724",
+      "phone": "(423) 123 -1233",
+      "website": "http://www.baker.com",
+      "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/baker.jpg",
+      "membership": "bronze"
+    },
+    {
+        "name": "Tom Tailor",
+      "address": "258 Pants Ave, Cumberland Gap TN, 37724",
+      "phone": "(423) 124 -1244",
+      "website": "http://www.tailor.com",
+      "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/tailor.jpg",
+      "membership": "silver"
+    },
+    {
+        "name": "Iris Flores",
+        "address": "499 Daffodil St, Cumberland Gap TN, 37724",
+        "phone": "(423) 125 -1255",
+        "website": "http://www.florist.com",
+        "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/florist.jpg",
+        "membership": "bronze"
+      },
+      {
+        "name": "Jim Robo",
+        "address": "654 CyberSpace St, Cumberland Gap TN, 37724",
+        "phone": "(423) 126 -1266",
+        "website": "http://www.it.com",
+        "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/information-tech.jpg",
+        "membership": "gold"
+      },
+      {
+        "name": "Mason Rock",
+        "address": "479 Boulder Ln, Cumberland Gap TN, 37724",
+        "phone": "(423) 127 -1277",
+        "website": "http://www.masonary.com",
+        "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/masonary.jpg",
+        "membership": "silver"
+      },
+      {
+        "name": "Artie Nouveau",
+        "address": "499 Van Gogh Rd, Cumberland Gap TN, 37724",
+        "phone": "(423) 128 -1288",
+        "website": "http://www.artgallery.com",
+        "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/art-gallery.jpg",
+        "membership": "gold"
+      },
+      {
+        "name": "Bobby Spaghetti",
+        "address": "695 Dean Martin Ave, Cumberland Gap TN, 37724",
+        "phone": "(423) 129 -1299",
+        "website": "http://www.mamboitalianoresturant.com",
+        "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/italian.jpg",
+        "membership": "gold"
+      }
+  ]
+}
