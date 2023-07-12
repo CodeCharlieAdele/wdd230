@@ -74,14 +74,19 @@
             <p>Quench your thirst and nourish your body at our vibrant juice shop! 🍊🍏 Discover a world of flavors bursting with natural goodness that will leave you feeling energized and revitalized.</p>
             <p>Boost Your Wellness: Our juices are not only delicious but also loaded with vitamins, minerals, and antioxidants. Experience the power of natural ingredients as they support your immune system, enhance your glow, and invigorate your day.</p>
             <p>Fresh and Local: We source the freshest, locally grown produce to ensure that each sip delivers the purest and most authentic taste. Supporting local farmers and businesses has never tasted so good!</p>
-            <a href="directory.html">Directory
+            <a href="directory.html">
                 <button id="directory-button">Directory</button>
             </a>
         </section>
         <section id="weather-card">
-            <h2>Current Weather</h2>
-            <p><span id="currentWeather"></span></p>
-            <span id="weatherImage"></span>
+            <div id="weather"></div>
+                <h2>The current temperature in Cumberland Gap, Tennessee is</h2>
+                <h3><span id="current-temp"></span></h3>
+                <figure>
+                    <img id="weather-icon" src="filler.jpg" alt="">
+                    <figcaption></figcaption>
+                </figure>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
         </section>
     </main>
     <footer id="footer">
@@ -93,5 +98,6 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hambugerMenu.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
