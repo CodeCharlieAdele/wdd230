@@ -318,19 +318,46 @@ form label.form-top input:required:valid {
   }
 
   /* --------------DIRECTORY PAGE------------------- */
-  .toggle-view {
-	margin-bottom: 20px;
-	font-weight: 700;
+ .directory-main {
+	display: block;
+ }
+
+ #grid,
+#list {
+	font-weight: 500;
+	font-weight: 800;
+	font-size: large;
+	margin-top: 1rem;
+	width: 150px;
+	padding: 0.75rem 2%;
+	border: #235070 1px solid;
+	border-radius: 5px;
+	font-family: 'Lora', sans-serif;
+	max-width: 22rem;
+	background-color: #235070;
 }
-.grid-container {
+
+
+.list tr {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-	grid-gap: 20px;
+	grid-template-columns: 45% 55%;
+	width: 100%;
+	justify-items: center;
+	font-weight: 600;
+	padding: 1rem;
 }
-#view-toggle {
-	font-size: 16px;
+
+.list tr:nth-child(odd) {
+    background-color: #A4AC86;
 }
-.member-card {
-	border: 1px solid #ccc;
-	padding: 10px;
+
+div .grid {
+	padding: .75rem;
+	font-weight: 600;
+	border: #235070;
+	border-radius: 2rem;
+}
+
+div .grid img {
+	padding-bottom: .5rem;
 }
