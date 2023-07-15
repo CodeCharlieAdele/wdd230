@@ -77,7 +77,7 @@ function ListView(members) {
   const listBtn = document.querySelector("#list");
 
   gridBtn.style.backgroundColor = "";
-  listBtn.style.backgroundColor = "#A68A64";
+  listBtn.style.backgroundColor = "#656d4a";
 
   // Clear the memberCard container
   memberCard.innerHTML = "";
@@ -106,7 +106,7 @@ function GridView(members) {
   const gridBtn = document.querySelector("#grid");
   const listBtn = document.querySelector("#list");
 
-  gridBtn.style.backgroundColor = "#A68A64";
+  gridBtn.style.backgroundColor = "#656d4a";
   //listBtn.style.color = "#000000";
   listBtn.style.backgroundColor = "";
 
