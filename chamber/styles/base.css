@@ -338,6 +338,7 @@ form label.form-top input:required:valid {
 }
 
 
+
 .list tr {
 	display: grid;
 	grid-template-columns: 45% 55%;
@@ -345,10 +346,12 @@ form label.form-top input:required:valid {
 	justify-items: center;
 	font-weight: 600;
 	padding: 1rem;
+	color: black;
+	text-decoration: none;
 }
 
 .list tr:nth-child(odd) {
-    background-color: #A4AC86;
+    background-color: #d5d6d4;
 }
 
 div .grid {
