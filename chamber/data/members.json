@@ -6,7 +6,8 @@
       "phone": "(423) 123 -1233",
       "website": "http://www.baker.com",
       "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/baker.jpg",
-      "membership": "bronze"
+      "membership": "silver",
+      "advert": "Sara's bakery is the perfect spot for handmade treats with the family and for high-end custom cakes to take your special occasions to the next level."
     },
     {
         "name": "Tom Tailor",
@@ -14,7 +15,8 @@
       "phone": "(423) 124 -1244",
       "website": "http://www.tailor.com",
       "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/tailor.jpg",
-      "membership": "silver"
+      "membership": "silver",
+      "advert": "Tom's Tailoring. Everyone deserves to have clothes that fit well and help them feel great. Come down to Tom's to get that perfect fit - you deserve it."
     },
     {
         "name": "Iris Flores",
@@ -22,7 +24,8 @@
         "phone": "(423) 125 -1255",
         "website": "http://www.florist.com",
         "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/florist.jpg",
-        "membership": "bronze"
+        "membership": "bronze",
+        "advert": "Make your day brighter with flowers from Iris. Make someone you love feel special, or treat yourself. Enjoy locally grown and native flowers for a loving and cozy feel."
       },
       {
         "name": "Jim Robo",
@@ -30,15 +33,17 @@
         "phone": "(423) 126 -1266",
         "website": "http://www.it.com",
         "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/information-tech.jpg",
-        "membership": "gold"
+        "membership": "gold",
+        "advert": "Tech breaks, but Jim's got your back. Bring anything that needs to be charged to the Robo master and have it cleaned up and fixed in no time!"
       },
       {
         "name": "Mason Rock",
         "address": "479 Boulder Ln, Cumberland Gap TN, 37724",
         "phone": "(423) 127 -1277",
         "website": "http://www.masonary.com",
-        "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/masonary.jpg",
-        "membership": "silver"
+        "logo": "images/masonary.jpg",
+        "membership": "bronze",
+        "advert": "Mason's Masonary Rocks! Shop local and get your stones from a reliable source."
       },
       {
         "name": "Artie Nouveau",
@@ -46,7 +51,8 @@
         "phone": "(423) 128 -1288",
         "website": "http://www.artgallery.com",
         "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/art-gallery.jpg",
-        "membership": "gold"
+        "membership": "gold",
+        "advert": "Come enjoy local art and celebrate local art and culture at Artie Nouveau's art gallery. Take an art class, explore our prints, and see our orignal pieces, maybe even exhibit your own art at Artie's."
       },
       {
         "name": "Bobby Spaghetti",
@@ -54,7 +60,8 @@
         "phone": "(423) 129 -1299",
         "website": "http://www.bobbyitaliano.com",
         "logo": "https://codecharlieadele.github.io/wdd230/chamber/images/italian.jpg",
-        "membership": "gold"
+        "membership": "gold",
+        "advert": "Eating at Bobby's is like coming home to a classic Italian family dinner. Come for live music and an authentic Italian experience."
       }
   ]
 }
