@@ -102,6 +102,20 @@ nav a:hover {
 	color: #d3e6d3fe;
 }
 
+.banner {
+	display: none;
+	background-color: #235070;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	grid-column: 1/3;
+}
+
+.close-button {
+	float: right;
+	cursor: pointer;
+}
+
 h2 {
 	margin-left: 4rem;
 }
@@ -111,6 +125,7 @@ section {
     border-radius: 10px;
 	overflow: hidden;
     border: 1px solid black;
+	padding: 1rem;
 }
 
 button {
@@ -128,6 +143,12 @@ button {
 	background-color: #A4AC86;
 }
 
+.ad {
+	font-size: large;
+	font-weight: 600;
+	padding-bottom: .5rem;
+}
+
 section h2 {
     background-color: #656D4A;
     color: white;
@@ -141,6 +162,10 @@ section p {
 
 section {
 	margin-bottom: 26px;
+}
+
+#weather-info {
+	margin: 1rem;
 }
 
 #footer {
