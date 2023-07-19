@@ -41,7 +41,7 @@ h1 {
 	background-color: #235070;
 	color: white;
  	position: absolute;
-	margin-top: 2rem;
+	margin-top: 4rem;
 	left: 2rem;
 }
 
@@ -223,7 +223,7 @@ section {
 }
 
 #join-title {
-	margin-top: 5rem;
+	margin-top: 7rem;
 }
 
 form fieldset {
@@ -352,6 +352,10 @@ form label.form-top input:required:valid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	grid-gap: 20px;
+}
+
+.toggle-view {
+	margin-top: 2rem;
 }
 
 .memberCards {
